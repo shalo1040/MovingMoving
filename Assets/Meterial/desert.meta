@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Meterial/desert.meta
 guid: 2dda32eb2aaf249c2a1192615eeb10c2
+=======
+guid: c637230774faa4631b97db5d5b84c0f9
+>>>>>>> Stashed changes:Assets/Materials/desert.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

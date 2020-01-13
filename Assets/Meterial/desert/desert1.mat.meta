@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Meterial/desert/desert1.mat.meta
 guid: d600d124b4107442697e6f9c448f421e
+=======
+guid: af0f3a1fe520b4d958bc0a93ba259dbc
+>>>>>>> Stashed changes:Assets/Materials/desert/desert1.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

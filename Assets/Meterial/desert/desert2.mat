@@ -40,7 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
+<<<<<<< Updated upstream:Assets/Meterial/desert/desert2.mat
         m_Texture: {fileID: 2800000, guid: f82fa7d6abb104b3fb1a8e1d02a0139d, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: ee115f0934765481bb6eaa693812f244, type: 3}
+>>>>>>> Stashed changes:Assets/Materials/desert/desert2.mat
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
