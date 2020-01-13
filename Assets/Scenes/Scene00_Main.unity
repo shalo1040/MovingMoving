@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -634,6 +634,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: scene_desert
       objectReference: {fileID: 0}
+    - target: {fileID: -4403150893461566841, guid: fb7329e2408d546a2963e20fe9bfbc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5168f52b3dff6774f9ab2e79857f4d97, type: 2}
     - target: {fileID: -4216859302048453862, guid: fb7329e2408d546a2963e20fe9bfbc78,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -689,6 +694,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4185691927639983584, guid: fb7329e2408d546a2963e20fe9bfbc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5168f52b3dff6774f9ab2e79857f4d97, type: 2}
+    - target: {fileID: 199122418065823367, guid: fb7329e2408d546a2963e20fe9bfbc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b73036314467ea4788c25890ee0b5ab, type: 2}
+    - target: {fileID: 325665809940713684, guid: fb7329e2408d546a2963e20fe9bfbc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5168f52b3dff6774f9ab2e79857f4d97, type: 2}
     - target: {fileID: 1331330312192470915, guid: fb7329e2408d546a2963e20fe9bfbc78,
         type: 3}
       propertyPath: m_LocalRotation.y
