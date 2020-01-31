@@ -6,7 +6,7 @@ using UnityEngine;
 public class RotateRoad : MonoBehaviour
 {
     public Vector3 anglesToRotate;
-    
+
     void Update()
     {
         if (Singleton.Instance.isWalking == true) // 사용자가 움직이면 길도 움직이게 하기

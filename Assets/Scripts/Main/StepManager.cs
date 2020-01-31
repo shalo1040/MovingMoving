@@ -1,46 +1,42 @@
 ﻿/*
+게임 시작 전,
 사용자에게 걸음수를 선택받음
 선택받은 걸음수를 싱글톤안에 넣음
+
+창을 열고 닫는 함수 Visible()과 Invisible() public으로 구현됨
 */
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class StepManager : MonoBehaviour
-{
-    public Button Range1Btn;
-    public Button Range2Btn;
-    public Button Range3Btn;
-    // public Button NoRangeBtn;
-
-
-    public void ClickedButton1()
+{    
+    public void OnRangeBtnClicked(int btnNumber)        //btnNumber 1,2,3 받음
     {
-        Singleton.Instance.range = 2000;
-        Debug.Log(2000);
-        Singleton.Instance.panel = false;
+        int range;
+        switch (btnNumber) {
+            case 1:
+                range = 2000;
+                break;
+            case 2:
+                range = 3000;
+                break;
+            case 3:
+                range = 5000;
+                break;
+            default:
+                range = 0;
+                break;
+        }
+        Singleton.Instance.range = range;       //목표 걸음수 설정
+        Singleton.Instance.panel = false;       //다음 접속 시 패널 다시 설정하지 않기 위해 false
     }
 
-    public void ClickedButton2()
+    public void Invisible(GameObject obj)       //창 닫기
     {
-        Singleton.Instance.range = 3000;
-        Debug.Log(3000);
-        Singleton.Instance.panel = false;
+        obj.SetActive(false);
     }
 
-    public void ClickedButton3()
+    public void Visible(GameObject obj)         //창 열기
     {
-        Singleton.Instance.range = 5000;
-        Debug.Log(5000);
-        Singleton.Instance.panel = false;
+        obj.SetActive(true);
     }
-
-    // public void ClickedButton4()
-    // {
-    //     Singleton.Instance.range = 00;
-    //     Debug.Log(00);
-    //     Singleton.Instance.panel = false;
-    // }
 }
-
