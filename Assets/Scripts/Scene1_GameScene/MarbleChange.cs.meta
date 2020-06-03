@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0dbd92aa4c287a44fb713a9580301650
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - marble: {instanceID: 0}
+  - marblePrefab: {fileID: 7366804905548569480, guid: b36220d46f3f0264f9790e74f020cf73,
+      type: 3}
+  - redmarble: {fileID: 2100000, guid: 0004eed060bf0dc45b3c50a55c2fd256, type: 2}
+  - greenmarble: {fileID: 2100000, guid: b73ee950a979231458504f99f4aa189e, type: 2}
+  - bluemarble: {fileID: 2100000, guid: 77c2f02f2f1a54246acf753a2bbfde10, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StepCounter : MonoBehaviour // 걷는 것 카운트 하는 스크립트
+public class StepCounter : MonoBehaviour
 {
     public Text StepCount;
 
@@ -35,7 +35,7 @@ public class StepCounter : MonoBehaviour // 걷는 것 카운트 하는 스크�
 
     void Update()
     {
-        StepCount.text = Singleton.Instance.step + " / " + Singleton.Instance.range; // 싱글톤쓸때 이런식으로 쓰면 됨
+        StepCount.text = Singleton.Instance.step + " / " + Singleton.Instance.range;
 
         UpdateElapsedWalkingTime(); // Updates the time you spend while walking.
         WalkingCheck(); // Checks if you are walking or not.
