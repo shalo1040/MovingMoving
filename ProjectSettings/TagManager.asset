@@ -7,6 +7,16 @@ TagManager:
   - marble
   - monster
   - item
+  - marbledetect
+  - marbleBtn
+  - player
+  - monster weapon
+  - shield
+  - door
+  - doorCollider
+  - monsterHP
+  - potionCount
+  - shieldCount
   layers:
   - Default
   - TransparentFX
@@ -43,4 +53,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 3364131017
     locked: 0

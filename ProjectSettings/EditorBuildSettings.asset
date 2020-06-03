@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SceneB2_Intro.unity
+    guid: b97ed2eb2082731408f049b93ab1300c
+  - enabled: 1
+    path: Assets/Scenes/SceneB1_Signup.unity
+    guid: 8a4ae5cb89cadc84ab968bf738573c85
+  - enabled: 1
     path: Assets/Scenes/Scene00_Main.unity
-    guid: 74355094d2205454d953d779b24c1de1
+    guid: acab79c112ee35042bcabdf02bf20d3b
+  - enabled: 1
+    path: Assets/Scenes/Scene01_MonsterAR.unity
+    guid: 35a96e89dd034a94d9f7e482597251b0
   m_configObjects: {}

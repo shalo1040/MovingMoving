@@ -8,7 +8,7 @@
 using UnityEngine;
 
 public class StepManager : MonoBehaviour
-{    
+{
     public void OnRangeBtnClicked(int btnNumber)        //btnNumber 1,2,3 받음
     {
         int range;
@@ -17,10 +17,13 @@ public class StepManager : MonoBehaviour
                 range = 2000;
                 break;
             case 2:
-                range = 3000;
+                range = 4000;
                 break;
             case 3:
-                range = 5000;
+                range = 6000;
+                break;
+            case 4:
+                range = 8000;
                 break;
             default:
                 range = 0;
